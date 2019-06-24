@@ -21,9 +21,9 @@ class WorkApi{
                 </xml>";
 
     public function __construct() {
-        $this->corpId = 'wxf0588bb2627e61a0';
+        $this->corpId = 'XXXXXXXXXXX';
         $this->token = 'fengpengjun';
-        $this->encodingAesKey = 'UCpGhufTVhfW7F3xQKPmglFFrKALqixPuBJp2CrkNUM';
+        $this->encodingAesKey = 'XXXXXXXXXXXXXXX';
         $this->wxcpt = new WXBizMsgCrypt($this->token, $this->encodingAesKey, $this->corpId);
 
     }
